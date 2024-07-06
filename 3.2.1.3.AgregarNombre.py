@@ -1,13 +1,11 @@
 Nombres = []
 election=0
-celecion=["no","NO","nO","No"]
-
 while election !=2:
     print(f"""
           ===Quiere Agregar Un Nombre===
           
           1).SI
-          2).{celecion.lower()}
+          2).no
           """)
     try:
       election=int(input())

@@ -6,7 +6,6 @@ def es_ganador(run):
     digitos = run[:-2][-2:]
     return digitos in ('92', '95', '84')
 
-# Leer el archivo CSV
 with open('listadoRun.csv', mode='r', encoding='utf-8') as csv_file:
     csv_reader = csv.DictReader(csv_file)
     ganadores = []
