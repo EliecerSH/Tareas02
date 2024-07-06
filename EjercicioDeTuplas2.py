@@ -1,0 +1,5 @@
+numeros=(1,2,3,4,5,6,7,8,9,10)
+print(" la suma de los numeros es = ",sum(numeros))
+print(" el numero mayor es = ",max(numeros))
+print(" el numero menor es = ",min(numeros))
+print(" el numero 5 aparece",numeros.count(5),"veces.")
