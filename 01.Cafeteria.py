@@ -1,9 +1,9 @@
+election=0
 pn=0
 pie=0
 ca=0
 te=0
 al=0
-election=0
 letras=("qwertyuiopasdfghjklQWERTYUIOPASDFGHJKL")
 while election !=3:
   print("""----Elija una opcion----

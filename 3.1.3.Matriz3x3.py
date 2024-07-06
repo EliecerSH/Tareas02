@@ -1,4 +1,3 @@
-# Crear el arreglo tridimensional manualmente
 arreglo = [
     [
         ["amarillo", "rojo", "Naranja"],
@@ -17,14 +16,12 @@ arreglo = [
     ]
 ]
 
-# Inicializar contadores
 contador_amarillo = 0
 contador_rojo = 0
 contador_Naranja = 0
 contador_Verde = 0
 contador_Blanco = 0
 
-# Contar los elementos en el arreglo tridimensional
 for capa in arreglo:
     for fila in capa:
         for elemento in fila:
@@ -39,9 +36,8 @@ for capa in arreglo:
             elif elemento == "Blanco":
                 contador_Blanco += 1
 
-# Mostrar los resultados
-print(f"Número de elementos 'amarillo': {contador_amarillo}")
-print(f"Número de elementos 'rojo': {contador_rojo}")
-print(f"Número de elementos 'Naranja': {contador_Naranja}")
-print(f"Número de elementos 'Verde': {contador_Verde}")
-print(f"Número de elementos 'Blanco': {contador_Blanco}")
+print(f"Número de elementos amarillo: {contador_amarillo}")
+print(f"Número de elementos rojo: {contador_rojo}")
+print(f"Número de elementos Naranja: {contador_Naranja}")
+print(f"Número de elementos Verde: {contador_Verde}")
+print(f"Número de elementos Blanco: {contador_Blanco}")

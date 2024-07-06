@@ -57,8 +57,4 @@ while numero2==None:
    except ValueError:
       print(" solo se aceptan numeros ")
 operacion(numero1,numero2,simbolo)
-print(" presione para hacer otro calculo ")
-numero1=None
-simbolo=None
-numero2=None
     
