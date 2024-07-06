@@ -8,3 +8,4 @@ if promedio>4:
     print(f" aprobado {promedio}")
 else:
     print(f" desaprobado {promedio}")
+print(nt1)
